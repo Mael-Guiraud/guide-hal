@@ -37,9 +37,11 @@ Il est possible que certains articles soient déposés avec votre nom, mais ne s
 
 Pour le savoir, lorsque vous êtes sur un article, cliquez sur **« Afficher plus de détails »** :
 
-![Afficher plus de détails](./assets/consulter_details_ex.png)
+![Afficher plus de détails](./assets/consulter_detail.png)
 
 Vous avez alors le détail des auteurs. Dans cet exemple, le papier est correctement lié à l'auteur **« Maël Guiraud »** (IdHAL apparent), mais pas à l'auteur **« Yann Strozecki »**.
+
+![Afficher plus de détails](./assets/consulter_detail_ex.png)
 
 ### Rechercher par votre nom
 
@@ -49,11 +51,11 @@ Pour chercher l'intégralité des articles avec votre nom, utilisez la barre de 
 
 **Exemple sans guillemets :**
 
-![Recherche sans guillemets](./assets/consulter_exemple_sans_guillemets.gif)
+![Recherche sans guillemets](./assets/consulter_exemple_sans_guillemet.gif)
 
 **Exemple avec guillemets :**
 
-![Recherche avec guillemets](./assets/consulter_exemple_avec_guillemets.gif)
+![Recherche avec guillemets](./assets/consulter_exemple_avec_guillemet.gif)
 
 Dans ce cas, pour « David Baudry » sans guillemets et « David Baudry » avec guillemets, la différence est cruciale : pensez donc à bien les utiliser pour éviter de polluer vos résultats.
 
