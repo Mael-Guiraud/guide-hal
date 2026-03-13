@@ -16,4 +16,3 @@ Suivez les étapes dans l'ordre ou accédez directement à la section qui vous i
 
 ---
 
-> 📝 Guide rédigé par **Maël Guiraud** – LINEACT
