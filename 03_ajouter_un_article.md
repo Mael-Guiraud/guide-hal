@@ -72,3 +72,4 @@ Vérifiez l'ensemble des métadonnées avant de valider :
 ![Vérifier](./assets/ajouter_article_verifier.png)
 
 > ✅ Cliquez sur **Déposer** pour finaliser.
+> Votre dépôt sera modéré par HAL, et vous serez notifié lorsqu’il sera public.
