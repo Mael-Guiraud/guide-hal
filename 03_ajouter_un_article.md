@@ -26,6 +26,17 @@ Uploadez votre fichier PDF :
 
 ![Upload fichier](./assets/ajouter_article_fichier.png)
 
+> ⚠️ **ATTENTION** : Si vous importez le fichier, veillez à respecter les droits d'auteurs.
+>
+> - Si le journal est **open-source** → vous pouvez mettre le fichier, en veillant à respecter le niveau de licence **CC-BY**.
+> - Sinon → vérifiez si vous faites partie des critères d'éligibilité pour la publication open source (souvent : **50% de financement public minimum**), et la **période d'embargo**.
+
+---
+
+## Section Métadonnées
+
+Si vous avez déjà un **DOI** pour le papier, ajoutez-le. En général, une grande partie voire l'intégralité des métadonnées seront automatiquement importées.
+
 ---
 
 ## Étape 4 — Vérifier les auteurs
