@@ -1,0 +1,94 @@
+---
+---
+@import "{{ site.theme }}";
+/* ■■ Variables CESI ■■ */
+:root {
+--yellow: #fbe315;
+--black: #111111;
+--white: #ffffff;
+--gray: #f5f5f5;
+--text: #222222;
+}
+/* ■■ Reset header Cayman ■■ */
+.page-header {
+background: var(--black) !important;
+background-image: none !important;
+padding: 2rem 4rem;
+display: flex;
+align-items: center;
+gap: 1.5rem;
+border-bottom: 4px solid var(--yellow);
+}
+.page-header .logo {
+height: 60px;
+width: auto;
+}
+.project-name {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+font-size: 1.6rem;
+font-weight: 700;
+color: var(--white) !important;
+margin: 0;
+}
+.project-tagline {
+font-size: 0.85rem;
+color: #cccccc !important;
+margin: 0.2rem 0 0 0;
+font-weight: 400;
+}
+/* ■■ Boutons header – masquer ■■ */
+.btn {
+display: none;
+}
+/* ■■ Contenu ■■ */
+.main-content {
+font-family: 'Inter', 'Helvetica Neue', sans-serif;
+color: var(--text);
+max-width: 860px;
+}
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+color: var(--black);
+font-weight: 700;
+}
+.main-content h1 {
+border-left: 5px solid var(--yellow);
+padding-left: 0.75rem;
+}
+.main-content h2 {
+border-bottom: 2px solid var(--yellow);
+padding-bottom: 0.3rem;
+}
+.main-content a {
+color: var(--black);
+text-decoration: underline;
+text-decoration-color: var(--yellow);
+text-underline-offset: 3px;
+}
+.main-content a:hover {
+color: var(--yellow);
+}
+.main-content code {
+background: var(--gray);
+color: var(--black);
+border-radius: 3px;
+padding: 0.1em 0.4em;
+font-size: 0.88em;
+}
+.main-content pre > code {
+background: #1e1e1e;
+color: #d4d4d4;
+display: block;
+padding: 1rem;
+border-left: 4px solid var(--yellow);
+border-radius: 0 4px 4px 0;
+}
+/* ■■ Footer ■■ */
+.site-footer {
+border-top: 2px solid var(--yellow);
+margin-top: 3rem;
+padding-top: 1rem;
+font-size: 0.8rem;
+color: #888;
+}
