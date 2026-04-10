@@ -141,7 +141,7 @@
   <main>
     {{ content }}
   </main>
-  {% assign pages_sorted = site.pages | sort: "order" %}
+{% assign pages_sorted = site.pages | where_exp: "p", "p.order != nil" | sort: "order" %}
 {% assign current_order = page.order %}
 
 {% for p in pages_sorted %}
@@ -154,7 +154,7 @@
 {% assign next_index = current_index | plus: 1 %}
 
 <nav class="page-nav">
-  {% if prev_index >= 0 %}
+  {% if current_index > 0 %}
     {% assign prev_page = pages_sorted[prev_index] %}
     <a href="{{ prev_page.url | relative_url }}" class="nav-btn">← {{ prev_page.title }}</a>
   {% else %}
