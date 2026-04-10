@@ -51,7 +51,7 @@ Vous avez alors le détail des auteurs. Dans cet exemple, le papier est correcte
 
 Pour chercher l'intégralité des articles avec votre nom, utilisez la barre de recherche, exemples ci-dessous.
 
-> ⚠️ **ATTENTION** : Veillez à saisir votre nom **entre guillemets**. Sans cela, HAL affichera tous les articles dont les auteurs partagent votre prénom ou votre nom. Par exemple, pour `David Baudry`, HAL pourrait vous proposer un article de *David Delaunay* ou de *Muriel Rabiller-Baudry*.
+> ⚠️ **ATTENTION** : Veillez à saisir votre nom **entre guillemets**. Sans cela, HAL affichera tous les articles dont les auteurs partagent votre prénom ou votre nom. Par exemple, pour "David Baudry", HAL pourrait vous proposer un article de *David Delaunay* et de *Muriel Rabiller-Baudry*.
 
 **Exemple sans guillemets :**
 
