@@ -47,7 +47,7 @@
     }
 
     main {
-      max-width: 860px;
+      max-width: 1000px;
       margin: 3rem auto;
       padding: 0 2rem;
       line-height: 1.7;
@@ -104,6 +104,28 @@
       overflow-x: auto;
       margin: 1rem 0;
     }
+    .page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #fbe315;
+}
+
+.nav-btn {
+  background: #111;
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.nav-btn:hover {
+  background: #fbe315;
+  color: #111 !important;
+}
   </style>
 </head>
 <body>
@@ -119,6 +141,30 @@
   <main>
     {{ content }}
   </main>
+  {% assign pages_sorted = site.pages | sort: "order" %}
+{% assign current_order = page.order %}
 
+{% for p in pages_sorted %}
+  {% if p.order == current_order %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% assign prev_index = current_index | minus: 1 %}
+{% assign next_index = current_index | plus: 1 %}
+
+<nav class="page-nav">
+  {% if prev_index >= 0 %}
+    {% assign prev_page = pages_sorted[prev_index] %}
+    <a href="{{ prev_page.url | relative_url }}" class="nav-btn">← {{ prev_page.title }}</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+
+  {% if next_index < pages_sorted.size %}
+    {% assign next_page = pages_sorted[next_index] %}
+    <a href="{{ next_page.url | relative_url }}" class="nav-btn">{{ next_page.title }} →</a>
+  {% endif %}
+</nav>
 </body>
 </html>

@@ -1,3 +1,7 @@
+---
+title: Consulter ses articles
+order: 2
+---
 # Consulter vos articles sur HAL
 
 Sur HAL, vos articles peuvent être ajoutés par vous-même, ou par un tiers.

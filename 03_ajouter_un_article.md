@@ -1,3 +1,7 @@
+---
+title: Ajouter un article
+order: 3
+---
 # Ajouter un article sur HAL
 
 ## Étape 1 — Cliquer sur « Déposer »

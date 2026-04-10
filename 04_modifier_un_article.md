@@ -1,3 +1,7 @@
+---
+title: Modifier un article
+order: 4
+---
 # Modifier un article sur HAL
 Lorsque vous avez identifié un article dans lequel votre IdHAL où affiliation n’est pas correctement renseignée, vous devez le modifier. Pour cela, il faut d’abord vous assurez d’avoir soit la propriété de l’article, soit les droits d’édition.
 Pour modifier un article, vous devez en être **le dépositaire** ou avoir obtenu **les droits d'édition**.

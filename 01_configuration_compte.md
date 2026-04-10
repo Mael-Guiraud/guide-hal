@@ -1,3 +1,7 @@
+---
+title: Configurer son compte HAL
+order: 1
+---
 # Configuration de votre compte HAL
 
 ## Création du compte
