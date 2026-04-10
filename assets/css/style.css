@@ -59,3 +59,20 @@
 .main-content a:hover {
   color: #fbe315;
 }
+.main-content code {
+  color: #111111;
+  background-color: #f4f4f4;
+}
+
+.main-content pre code {
+  color: #e8e8e8;
+  background-color: transparent;
+}
+.main-content img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 6px;
+}
