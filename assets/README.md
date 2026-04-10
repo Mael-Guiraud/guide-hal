@@ -1,3 +1,6 @@
+---
+exclude_nav: true
+---
 # Assets – Images & GIFs
 
 Placez ici vos captures d'écran et GIFs animés.
