@@ -58,12 +58,13 @@ Un auteur correctement lié apparaît ainsi :
 ![Auteur OK](./assets/ajouter_article_auteur_ok.png)
 
 ### Supprimer un auteur mal renseigné
+Si un auteur est mal rentré, supprimez-le à l’aide du symbole situé à droite de l’auteur.
 
 ![Supprimer auteur](./assets/ajouter_article_supprimer_auteur.png)
 
 ### Ajouter un auteur correctement
-
-Recherchez l'auteur et **sélectionnez la ligne avec l'IdHAL** :
+Pour rajouter un auteur, saisissez son nom dans la barre de recherche. Si plusieurs options vous sont proposées (ce qui est le cas pour beaucoup de
+monde possédant d’anciens comptes), veillez à prendre la ligne qui contient l’IdHAL de la personne : dans notre exemple, la première ligne sur le screen ci-dessous.
 
 ![Ajouter auteur](./assets/ajouter_article_ajouter_auteur.png)
 
