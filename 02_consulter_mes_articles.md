@@ -22,13 +22,13 @@ Accédez à l'onglet **« Mes dépôts »** de votre tableau de bord :
 
 ### Option 2 — Requête directe
 
-Utilisez le lien suivant en remplaçant `VOTRE_ID_HAL` par votre IdHAL :
+Utilisez le lien suivant en remplaçant "VOTRE_ID_HAL" par votre IdHAL :
 
 ```
 https://hal.science/search/index/q/*/authIdHal_s/VOTRE_ID_HAL
 ```
 
-**Exemple** pour l'IdHAL `david-baudry` :
+**Exemple** pour l'IdHAL "david-baudry" :
 
 ```
 https://hal.science/search/index/q/*/authIdHal_s/david-baudry
