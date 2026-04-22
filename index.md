@@ -1,8 +1,8 @@
 ---
-title: Guide HAL – LINEACT
+title: Guide HAL 
 order: 0
 ---
-# Guide HAL – LINEACT
+# Guide HAL 
 
 Bienvenue sur le guide d'utilisation de HAL.  
 Suivez les étapes dans l'ordre ou accédez directement à la section qui vous intéresse.
